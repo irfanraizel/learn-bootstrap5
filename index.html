@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <style>
+      .tombol {
+        background-color: var(--bs-purple);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- belajar button, form control -->
+    <div class="container">
+      <h1>Hello, world!</h1>
+      <button type="button" class="btn btn-primary w-50 text-nowrap tombol">
+        <!--text-nowrap tidak akan wrap text di button-->
+        <!--w-100/w-50= width-100%/width-50%-->
+        Click Me! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+        architecto ad voluptate maxime odit sed hic, beatae sint doloremque
+        labore voluptates dolor ea rerum omnis quia sequi, aperiam, atque saepe.
+      </button>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Email address</label
+        >
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+      </div>
+    </div>
+    <!--======================= -->
+
+    <!-- belajar container, row, cold-md-6, w-100 -->
+    <div class="container" style="border: 1px solid red">
+      <!--container-fluid width=100%-->
+      <div class="row justify-content-center">
+        <div class="col-md-2">
+          <img
+            src="https://img.freepik.com/photos-premium/homme-femme-se-tiennent-plage-sous-ciel-eclaire-par-lune_860805-2759.jpg"
+            class="img-fluid w-100"
+            alt="Gambar 1"
+          />
+        </div>
+        <div class="col-md-2">
+          <img
+            src="https://img.freepik.com/photos-premium/homme-femme-se-tiennent-plage-sous-ciel-eclaire-par-lune_860805-2759.jpg"
+            class="img-fluid w-100"
+            alt="Gambar 2"
+          />
+        </div>
+        <div class="col-md-2">
+          <img
+            src="https://img.freepik.com/photos-premium/homme-femme-se-tiennent-plage-sous-ciel-eclaire-par-lune_860805-2759.jpg"
+            class="img-fluid w-100"
+            alt="Gambar 2"
+          />
+        </div>
+        <div class="col-md-2">
+          <img
+            src="https://img.freepik.com/photos-premium/homme-femme-se-tiennent-plage-sous-ciel-eclaire-par-lune_860805-2759.jpg"
+            class="img-fluid w-100"
+            alt="Gambar 1"
+          />
+        </div>
+        <div class="col-md-2">
+          <img
+            src="https://img.freepik.com/photos-premium/homme-femme-se-tiennent-plage-sous-ciel-eclaire-par-lune_860805-2759.jpg"
+            class="img-fluid w-100"
+            alt="Gambar 2"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- ============= -->
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
